@@ -16,7 +16,7 @@ logging.basicConfig(
 )
 
 class WebCrawler:
-    def __init__(self, base_url, output_file='./discovered_urls.txt', max_depth=10, max_pages=500):
+    def __init__(self, base_url, output_file='./url-extractor/discovered_urls.txt', max_depth=10, max_pages=500):
         self.base_url = base_url
         self.output_file = output_file
         self.max_depth = max_depth
